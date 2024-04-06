@@ -12,3 +12,6 @@ publish:
 
 package-install:
 	python3 -m pip install --user dist/*.whl #Установка программы
+
+lint:
+	poetry run flake8 brain_games #запуск линтера для проверки чистоты кода
