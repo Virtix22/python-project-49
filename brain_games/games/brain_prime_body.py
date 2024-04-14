@@ -7,7 +7,7 @@ from brain_games.games.engine.functions import wrong_answer, congratulation
 
 def brain_prime():
     name = welcome_user()
-    print('Answer "yes" if given number is prime. Otherwise answer "no"')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     i = 0
     while i < 3:
         rand_num = random_num()
