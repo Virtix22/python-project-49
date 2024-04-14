@@ -16,7 +16,8 @@ def brain_progression():
         hide_index = randint(0, 9)
         result = progression[hide_index]
         progression[hide_index] = '..'
-        print(f"Question: {str(progression)}")
+        question = ' '.join(str(_) for _ in progression)
+        print(f"Question: {(str(question))}")
         user_choice = int(user_result())
         if user_choice == result:
             cortect_answer()
