@@ -6,3 +6,6 @@
 
 ### Aciinema for brain-even (step 5)
 <a href="https://asciinema.org/a/Dfg5ZFJZKKaRQwRN8IWR8MGGs" target="_blank"><img src="https://asciinema.org/a/Dfg5ZFJZKKaRQwRN8IWR8MGGs.svg" /></a>
+
+### Accinema for brain-calc (step 6)
+<a href="https://asciinema.org/a/652613" target="_blank"><img src="https://asciinema.org/a/652613.svg" /></a>

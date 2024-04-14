@@ -1,40 +1,29 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.8
 
-import random
-import prompt
-from brain_games.module.welcome import welcome_user
-
-#def welcome_user():
- #   print('Welcome to the Brain Games!')
-  #  name = prompt.string('May I have your name? ')
-   # print(f'Hello, {name}!')
-    #return name
+from brain_games.games.engine.functions import welcome_user, random_number
+from brain_games.games.engine.functions import user_result, even
+from brain_games.games.engine.functions import wrong_answer, cortect_answer
+from brain_games.games.engine.functions import congratulation
 
 
-def even(name):
-    print('Answer "yes" if the number is even, otherwise answer "no"')
+def brain_even():
+    name = welcome_user()
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     i = 0
     while i < 3:
-        random_number = random.randint(0, 10001)
-        print(f'Question: {random_number}')
-        choice = prompt.string('Your answer? ')
-        if random_number % 2 == 0 and choice == 'yes' or random_number % 2 != 0 and choice == 'no':
-            print('Correct!')
-            i+=1
-        elif random_number % 2 == 0 and choice == 'no':
-            print(f"'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, {name}!")
-            break
-        elif random_number % 2 != 0 and choice == 'yes':
-            print(f"'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}!")
+        rand_num = random_number()
+        result = even(rand_num)
+        print(f'Question: {rand_num}')
+        user_choice = user_result()
+        if user_choice == result:
+            cortect_answer()
+            i += 1
+        else:
+            wrong_answer(user_choice, result, name)
             break
     if i == 3:
-        print(f'Congratulations, {name}')
+        congratulation(name)
 
 
-def main():
-    name = welcome_user()
-    even(name)
-
-
-if __name__ == '__main__':
-    main()
+def even_start():
+    brain_even()

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-from brain_games.games.brain_even_body import even_start
+from brain_games.games.brain_gcd_body import gcd_start
 
 
 def main():
-    even_start()
+    gcd_start()
 
 
 if __name__ == '__main__':
