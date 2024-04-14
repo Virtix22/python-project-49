@@ -5,7 +5,16 @@
 <a href="https://codeclimate.com/github/Virtix22/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/03366cd0be3678852903/maintainability" /></a>
 
 ### Aciinema for brain-even (step 5)
-<a href="https://asciinema.org/a/Dfg5ZFJZKKaRQwRN8IWR8MGGs" target="_blank"><img src="https://asciinema.org/a/Dfg5ZFJZKKaRQwRN8IWR8MGGs.svg" /></a>
+[![asciicast](https://asciinema.org/a/Dfg5ZFJZKKaRQwRN8IWR8MGGs.svg)](https://asciinema.org/a/Dfg5ZFJZKKaRQwRN8IWR8MGGs)
 
 ### Accinema for brain-calc (step 6)
-<a href="https://asciinema.org/a/652613" target="_blank"><img src="https://asciinema.org/a/652613.svg" /></a>
+[![asciicast](https://asciinema.org/a/652613.svg)](https://asciinema.org/a/652613)
+
+### Accinema for brain-gcd (step 7)
+[![asciicast](https://asciinema.org/a/654160.svg)](https://asciinema.org/a/654160)
+
+### Accinema for brain-progression (step 8)
+[![asciicast](https://asciinema.org/a/654162.svg)](https://asciinema.org/a/654162)
+
+### Accinema for brain-prime (step 9)
+[![asciicast](https://asciinema.org/a/654163.svg)](https://asciinema.org/a/654163)
