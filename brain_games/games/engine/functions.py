@@ -42,7 +42,7 @@ def cortect_answer():
 
 
 def congratulation(name):
-    print(f'Congratulations, {name}')
+    print(f'Congratulations, {name}!')
 
 
 def prime(rand_num):
