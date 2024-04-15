@@ -37,7 +37,7 @@ def wrong_answer(choice, resul, name):
     print(f"Let's try again, {name}!")
 
 
-def cortect_answer():
+def correct_answer():
     print('Correct!')
 
 
