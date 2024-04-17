@@ -1,10 +1,23 @@
 #!/usr/bin/env python3.8
 
-from brain_games.games.engine.functions import even, random_number
+from random import randint
+RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def brain_even():
-    rules = 'Answer "yes" if the number is even, otherwise answer "no".'
-    rand_num = random_number()
-    result = even(rand_num)
-    return rand_num, result, rules
+def random_number():
+    rand_num = randint(1, 11)
+    return rand_num
+
+
+def is_even(ask):
+    if ask % 2 == 0:
+        result = 'yes'
+    else:
+        result = 'no'
+    return result
+
+
+def game_body():
+    ask = random_number()
+    result = is_even(ask)
+    return ask, result
