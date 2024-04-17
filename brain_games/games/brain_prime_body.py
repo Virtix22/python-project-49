@@ -4,6 +4,7 @@ from random import randint
 from math import sqrt
 RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
+
 def random_num():
     rand_num = randint(2, 101)
     return rand_num

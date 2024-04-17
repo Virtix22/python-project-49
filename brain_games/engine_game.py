@@ -16,7 +16,8 @@ def user_result():
 
 
 def wrong_answer(user_choice, result, name):
-    print(f"{str(user_choice)} is wrong answer ;(. Correct answer was {str(result)}.")
+    wrong_message = 'is wrong answer ;(. Correct answer was'
+    print(f"{str(user_choice)} {wrong_message} {str(result)}.")
     print(f"Let's try again, {name}!")
 
 
