@@ -22,5 +22,5 @@ def is_prime(ask):
 
 def game_body():
     ask = random_num()
-    rigt_result = is_prime(ask)
-    return ask, rigt_result
+    result = is_prime(ask)
+    return ask, result
